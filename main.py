@@ -4,8 +4,8 @@ import sqlite3
 from datetime import datetime
 
 # ===== ТОКЕН (ВСТАВЬ СВОЙ) =====
-BOT_TOKEN = "8572115748:AAEwfw09KZVIhVgRvh3FzbqR-OAq7I4MejA"
-ADMIN_ID = 1142854194  # Вставь свой ID
+BOT_TOKEN = "Типа токен"
+ADMIN_ID = ""  # Вставь свой ID
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
