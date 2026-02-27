@@ -84,7 +84,7 @@ def save_user_to_db(user):
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     is_admin = 1 if user.id == ADMIN_ID else 0
-
+# 46546954
     try:
         cursor.execute("""
             INSERT INTO users 
